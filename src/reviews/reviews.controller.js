@@ -17,22 +17,26 @@ async function reviewExists(request, response, next) {
 }
   
   async function update (request, response, next) {
+    console.log("update")
     const updatedReview = {
-      ...response.locals.review,
       ...request.body.data,
       review_id: response.locals.review.review_id,
     };
     
-    await service.update(updatedReview);
-    updatedReview.critic = await service.listCritics(updatedReview.critic_id)
-    response.json({ data: updatedReview});
+    const result = await service.update(updatedReview);
+    console.log("result",result);
+    //updatedReview.critic = await service.listCritics(updatedReview.critic_id)
+    response.json({ data: result});
   }
   
   async function destroy (request, response, next) {
-    await service.destroy(
+    console.log("destory 3")
+    await service.delete(
       response.locals.review.review_id
     );
+    
     response.sendStatus(204);
+    
   }
 
   module.exports = {
