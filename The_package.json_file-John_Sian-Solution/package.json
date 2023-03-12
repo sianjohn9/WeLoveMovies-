@@ -1,0 +1,19 @@
+{
+  "name": "zid-pf-javascript-on-your-machine-05-package-json",
+  "version": "1.0.0",
+  "description": "Working for the assessment",
+  "keywords": [],
+  "author": "JohnKSian",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+     "start":"node package.json"
+    "docker:build": "docker image build . -t thinkful-ed/zid-pf-javascript-on-your-machine-05-package-json",
+    "docker:test": "docker run -t  thinkful-ed/zid-pf-javascript-on-your-machine-05-package-json npm test",
+    "test": "mocha test",
+    "test:solution": "npm run docker:build && npm run docker:test"
+  }
+}

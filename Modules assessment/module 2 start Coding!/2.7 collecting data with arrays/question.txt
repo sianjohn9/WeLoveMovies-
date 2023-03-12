@@ -1,0 +1,15 @@
+Start coding: Collecting data with arrays
+Apply your new skills regarding arrays to iteratively improve Diego's website. There is no need to make changes to the array left behind by the developer, but the Total Album Length needs attention.
+
+Read the instructions below to understand the request and requirements needed for you to successfully complete this challenge.
+
+Remember, you have all the skills needed to do this. But if you need support, please reach out for help!
+
+Instructions
+Click on the Web Preview and notice how the Total Album Length is showing up as a list of numbers separated by commas.
+
+Click the script.js file and follow the instructions to fix the issue.
+
+Click Web Preview to see the effects of your updates in the script.js file and verify that the images change.
+
+Click Run Tests when you think you've got a solution. When the tests pass (you'll know because they'll turn green), go ahead and submit the challenge

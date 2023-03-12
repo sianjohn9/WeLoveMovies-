@@ -1,0 +1,26 @@
+Excellent job! After this challenge, you will be halfway done with the six new feature requests. Remember, it’s okay to step away and take a break when needed. You are doing amazing work, and you have all the skills needed to complete this task. Until this point, you have created two functions which count campsites and return maximum capacity. Imagine the complexity of a reservation system for a major hotel brand! This next function will stretch your talents a bit further.
+
+Campground reservations: Available campsites
+Which campsites are available to reserve?
+In addition to counting the campsites and figuring out the max capacity, – we need to figure out which campsites are available.
+
+Qualified challenge requirements
+Write a function called availableCampsites(campgrounds) that takes a collection of campgrounds like the array shown below.
+Given a campgrounds array, return an array with the campsite numbers of all currently unreserved (isReserved === false) campsites.
+Array
+Our data looks like this. It's an array with a bunch of campsite objects in it. Here is a small subset of the data to give you an idea:
+
+
+const campgrounds = [ 
+
+  { number: 1, view: "ocean", partySize: 8, isReserved: false }, 
+
+  { number: 5, view: "ocean", partySize: 4, isReserved: false }, 
+
+  { number: 12, view: "ocean", partySize: 4, isReserved: true }, 
+
+  { number: 18, view: "forest", partySize: 4, isReserved: false }, 
+
+  { number: 23, view: "forest", partySize: 4, isReserved: true }, 
+
+];

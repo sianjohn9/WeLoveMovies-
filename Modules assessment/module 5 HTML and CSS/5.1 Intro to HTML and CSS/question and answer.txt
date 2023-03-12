@@ -1,0 +1,19 @@
+First, run the code sample in the Replit above to view the project, which uses HTML and CSS. Then, see if you can answer the questions below.
+
+Delete the CSS page, and run the code again. What happens?
+Reopen the original code sample to reset. Highlight all the code in the index.html file, and then delete it. Run the code again. What happens now?
+Jot down your answers in the space below before reading beyond this point; you will submit your thoughts for this practice exercise. The purpose of this assessment is for you to practice and hone your skills as a web developer. You will apply these skills throughout the program. Although you won’t be graded on this assessment, it is still required.
+
+After working through the questions above on your own, you're likely ready to learn why the Replit executed the way it did when you removed certain blocks of code.
+
+In the first situation, you deleted the CSS page. As a result, the HTML page displayed the text, images, and links, but there were no styling instructions provided. Without that information, the browser couldn't style the page.
+
+In the second case, when you deleted the HTML code, the CSS tried to provide styling, but there wasn't anything to style. As a result, you only saw a blank white web page.
+
+This demonstrates that HTML makes up only the content of a web page, while CSS informs the presentation of that content on the web page.
+
+Answer
+
+1.  After deleting the CSS page, the run will show just the Webview with no CSS information in it, which mean it will just show everything in one page orderly. With that CSS pages we can see some creative moving side to side.
+
+2.  After deleting the index.html page, the Webview can't run/ don't have anything to run to get the result.

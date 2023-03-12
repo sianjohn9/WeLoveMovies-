@@ -1,0 +1,112 @@
+Evaluate the following code. What will be logged, or what error will first be thrown?
+
+const colors = ["blue", "green", "red", "yellow"];
+for (let i = 0; i < colors.length; i++) {
+  colors[i] = colors[i].toUpperCase();
+}
+console.log(i);
+Responses
+
+3
+
+4
+
+undefined
+
+Uncaught ReferenceError: i is not defined (answer)
+
+Uncaught SyntaxError: Identifier 'i' has already been declared
+
+Uncaught TypeError: Assignment to constant variable
+
+
+Question 2
+Evaluate the following code. What will be logged, or what error will first be thrown?
+
+const colors = ["blue", "green", "red", "yellow"];
+for (const i = 0; i < colors.length; i++) {
+  colors[i] = colors[i].toUpperCase();
+}
+console.log(i);
+Responses
+
+3
+
+4
+
+undefined
+
+Uncaught ReferenceError: i is not defined
+
+Uncaught SyntaxError: Identifier 'i' has already been declared
+
+Uncaught TypeError: Assignment to constant variable (answer)
+
+
+Question 3
+Evaluate the following code. What will be logged, or what error will first be thrown?
+
+const favoriteColorCount = {
+  blue: 8,
+  green: 6,
+  red: 3,
+  yellow: 1,
+};
+
+const favoriteColor = "";
+const maxCount = 0;
+for (let color in favoriteColorCount) {
+  const count = favoriteColorCount[color];
+  if (maxCount < count) {
+    maxCount = count;
+    favoriteColor = color;
+  }
+}
+
+console.log(favoriteColor);
+Responses
+
+blue
+
+undefined
+
+Uncaught ReferenceError: favoriteColor is not defined
+
+Uncaught SyntaxError: Identifier 'count' has already been declared
+
+Uncaught TypeError: Assignment to constant variable (answer)
+
+
+
+Question 4
+Evaluate the following code. What will be logged, or what error will first be thrown?
+
+const favoriteColorCount = {
+  blue: 8,
+  green: 6,
+  red: 3,
+  yellow: 1,
+};
+
+let favoriteColor = "";
+let maxCount = 0;
+for (let color in favoriteColorCount) {
+  const count = favoriteColorCount[color];
+  if (maxCount < count) {
+    maxCount = count;
+    favoriteColor = color;
+  }
+}
+
+console.log(favoriteColor);
+Responses
+
+blue (answer)
+
+undefined
+
+Uncaught ReferenceError: favoriteColor is not defined
+
+Uncaught SyntaxError: Identifier 'count' has already been declared
+
+Uncaught TypeError: Assignment to constant variable

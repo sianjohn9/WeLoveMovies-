@@ -1,0 +1,111 @@
+Thank you so much for all your hard work. We need one more feature request to be done. This time, you'll be adding functions so that the chatbot can help the user with travel destinations. I've updated the handleInput() function in chatbot.js with a new section on destinations.
+
+Getaway Travel chatbot: Bot travel destination Information
+When the user types in the name of a destination, the chatbot should show the description of that destination.
+
+Qualified challenge requirements
+Write findDestination()
+a. The handleInput() function will call findDestination() with the user message and the array of destinations.
+b. It should return the whole destination object, if there's one that matches the location.
+
+Write listDestinations().
+a. It might be a good idea to use a helper function in listDestinations() too.
+
+Note: All the data is in destinations.js. Each destination has a location and description field, like this:
+
+
+{  
+
+  location: 'Luang Prabang, Laos',  
+
+  description: 'Luang Prabang, Laos is known for places to eat and drink. Recommended places to visit are Pak Ou Caves, Wat Xieng Thong and Royal Palace.'  
+
+}
+And there'll be an array of destinations, like this:
+
+
+let destinations = [  
+
+  {location: "location 1", description: "location 1 description"},  
+
+  {location: "location 2", description: "location 2 description"}  
+
+]
+So, if findDestination() is called like this:
+
+
+findDestination('location 1', destinations);
+then it should return the whole object:
+
+
+{  
+
+  location: 'location 1',  
+
+  description: 'location 1 description'  
+
+}
+But it'll be called with the real destinations from destinations.js.
+
+Important tip: The matching should be forgiving. If the user types in just the city (leaving out the country), or uses lowercase, that should still match.
+
+For example, if the user types in "nikko", and the function is called like this:
+
+
+findDestination("nikko", destinations);
+then the function should return the whole object for Nikko, Japan, because it matches.
+
+
+{  
+
+  location: 'Nikko, Japan',  
+
+  description: 'Nikko, Japan is known for natural attractions. Recommended places to visit are Nikkō Tōshō-gū, Kegon Falls and Ryūzu Falls.'  
+
+}
+Similarly, if the user enters "LAOS", the function should return the whole object for Luang Prabang, Laos.
+
+
+findDestination("LAOS", destinations);
+So, the above code should return this:
+
+
+{  
+
+  location: 'Luang Prabang, Laos',  
+
+  description: 'Luang Prabang, Laos is known for places to eat and drink. Recommended places to visit are Pak Ou Caves, Wat Xieng Thong and Royal Palace.'  
+
+}
+To get this to work, you'll probably need to use the string methods .toLowerCase and .includes instead of just checking using ===. Feel free to go back and refresh your memory on these Java functions.
+
+List destinations
+The site visitor has to know what destinations are available. The listDestinations() function will be called when the user enters destinations. The function should return a string showing the list of locations that are available.
+
+So, the function will be called like this:
+
+
+listDestinations(destinations)
+with the full destinations array.
+
+The response from the function should be this:
+
+
+"I can tell you about our current recommended destinations. Which one do you want to hear about? location 1; location 2; location 3. Enter a location for more info."
+except with the actual locations instead of location 1, location 2, and location 3.
+
+A helper method could be useful in splitting the work. It could take in the arrray of destinations and return an array of the location strings. That way, the listDestinations() function wouldn't have to do all the work.
+
+Here's how the flow would work with a helper:
+
+The handleInput() function passes in the array of destinations to the listDestinations() function.
+
+listDestinations() passes the array to a helper function to get back just the location field from each destination object.
+
+listDestinations() puts together the result string using join.
+
+Some more notes:
+
+Because the locations are formatted with a comma in the format city, country, they should be separated by semicolons ; in the response.
+
+If you haven't used it before, you might want to look up how to use JavaScript's array join method—it makes a string out of the elements of an array.

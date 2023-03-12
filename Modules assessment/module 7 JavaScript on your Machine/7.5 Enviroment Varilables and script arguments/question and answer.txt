@@ -1,0 +1,76 @@
+Which of the following is the correct way to write an environment variable?
+Responses
+
+termProgramVersion
+
+TermProgramVersion
+
+term_program_version
+
+TERM_PROGRAM_VERSION(answer)
+
+
+Question 2
+Assume you run the following file with this command: node file.js fact. What will be shown in the terminal?
+
+let argument = process.argv[1];
+if (argument) {
+  if (argument === "fact") {
+    console.log(
+      "Here is a fun plant fact: Most plant life is found in the ocean!"
+    );
+  } else {
+    console.log("Sorry, I did not understand that command.");
+  }
+} else {
+  console.log("You need to enter a command!");
+}
+Responses
+
+"Here is a fun plant fact: Most plant life is found in the ocean!"
+
+"Sorry, I did not understand that command."(answer)
+
+"You need to enter a command!"
+
+
+Question 3
+Assume you run the following file with this command: node file.js. What will be shown in the terminal?
+
+let argument = process.argv[2];
+if (argument) {
+  if (argument === "fact") {
+    console.log(
+      "Here is a fun plant fact: Most plant life is found in the ocean!"
+    );
+  } else {
+    console.log("Sorry, I did not understand that command.");
+  }
+} else {
+  console.log("You need to enter a command!");
+}
+
+Responses
+
+"Here is a fun plant fact: Most plant life is found in the ocean!"
+
+"Sorry, I did not understand that command."
+
+"You need to enter a command!"(answer) 
+
+
+Question 4
+Assume you have access to an environment variable called USER which points to the value Robin.
+
+Then, assume you run the following file with this command: node file.js Nice to meet you . What will be shown in the terminal?
+
+console.log(process.env.USER + " says: " + process.argv[2]);
+Responses
+
+"Robin says: Nice"(answer)
+
+"Robin says: undefined"
+
+"undefined says: undefined"
+
+"Robin says: Nice to meet you"

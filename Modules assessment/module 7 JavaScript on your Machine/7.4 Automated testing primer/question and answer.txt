@@ -1,0 +1,39 @@
+What is a unit test?
+Responses
+
+1. A manual process for testing an application's workflow from beginning to end
+
+2. An automated piece of code that tests whether many separate parts of a software work together as a group
+
+3. A manual process that involves human testers working from a detailed test script
+
+4. An automated piece of code that checks the behavior of an individual part of a program (answer)
+
+
+
+Question 2
+Which folder will you typically be required to write your solution code in when working on a Thinkful assessment?
+Responses
+
+1. test
+
+2. src (answer)
+
+3. docs
+
+4. node_modules
+
+
+
+Question 3
+What are the benefits of automated testing? Select all that apply.
+
+Responses
+( all of the following are correct)
+1. Cost-saving
+
+2. Increased productivity
+
+3. Immediate feedback to developers and timely remediation of code issues
+
+4. High code quality and performance

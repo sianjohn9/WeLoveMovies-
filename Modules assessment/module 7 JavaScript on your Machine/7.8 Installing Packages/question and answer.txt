@@ -1,0 +1,68 @@
+Skim the page below:
+
+npmjs.com: faker.js
+Which of the following options most correctly describes the purpose of the faker package?
+
+Responses
+
+The package helps parse and format dates.
+
+The package helps you generate randomized, fake data. (answer)
+
+The package helps you to print text to the terminal in a variety of colors.
+
+The package is a command-line tool that allows you to print out statements with an image of a cow.
+
+
+Question 2
+Skim the page below:
+
+npmjs.com: chalk
+Which of the following options most correctly describes the purpose of the chalk package?
+
+Responses
+
+The package helps parse and format dates.
+
+The package helps you generate randomized, fake data.
+
+The package helps you to print text to the terminal in a variety of colors. (answer)
+
+The package is a command line tool that allows you to print out statements with an image of a cow.
+
+
+Question 3
+Imagine you are using the chalk package.
+
+Select all of the following options that:
+
+1. Are valid.
+2. Will print the color blue, either as the text color or as a background.
+
+Responses
+
+let chalk = require("chalk");
+chalk.yellow("Borage");
+
+let chalk = require("chalk");    (answer the last three)
+chalk.blue("False Indigo");
+
+let chalk = require("chalk");
+chalk.bgBlue("Siberian Squill");
+
+let chalk = require("chalk");
+chalk.blue.bgYellow("Blue Mist Shrub");
+
+
+Question 4
+Which of the following commands will correctly install the mocha package as a developer dependency?
+
+Responses
+
+npm install
+
+npm install mocha
+
+npm install --save-dev
+
+npm install mocha --save-dev (answer)

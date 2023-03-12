@@ -1,0 +1,25 @@
+Awesome – you have completed three challenges; just three more to go!
+
+Campground reservations: Available capacity
+What's the capacity of the unreserved sites?
+We want to know how many more guests we can accommodate, on the sites that aren't reserved right now. Can you help us?
+
+Qualified challenge requirements
+Write a function called additionalCapacity(campgrounds) that takes a collection of campgrounds like the array shown below.
+Given a campgrounds array, return the total number of people the campground can host, on the sites that aren't reserved right now. In other words, if all the currently available campsites were filled to maximum capacity, how many people would be staying on those campsites in total?
+Array
+Our data looks like this. It's an array with a bunch of campsite objects in it. Here is a small subset of the data to give you an idea:
+
+
+const campgrounds = [ 
+
+  { number: 1, view: "ocean", partySize: 8, isReserved: false }, 
+
+  { number: 5, view: "ocean", partySize: 4, isReserved: false }, 
+
+  { number: 12, view: "ocean", partySize: 4, isReserved: true }, 
+
+  { number: 18, view: "forest", partySize: 4, isReserved: false }, 
+
+  { number: 23, view: "forest", partySize: 4, isReserved: true }, 
+];

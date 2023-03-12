@@ -1,0 +1,42 @@
+You have made it to the last challenge of this assessment. Remember when you first began this program? Take a moment to reflect on all the new skills that you’ve gained. You should feel great about what you have accomplished already.
+
+Campground reservations: Filter campsites by multiple criteria
+Which campsites are available to reserve for my party and desired view?
+The biggest feature that users have requested is findMyCampsites(). People want to know which campsites are available that have their desired view and can fit their party size.
+
+Qualified challenge requirements
+Write a function findMyCampsites().
+Given a campgrounds array, a type of view as a string, and the party size as a number, return an array with campsite numbers for the matching campsites. That is, your function should return results that match the following three criteria:
+     a. Currently available campsites (`isReserved === false`) 
+     b. With the view that matches the input string (such as `ocean` or `forest`) 
+     c. That can host the party size of the input number, or greater 
+If no sites are available, return the string 'Sorry, no campsites with that view are available to host your party'
+Here's an example:
+
+
+//example input/output 
+
+findMyCampsites(campgrounds, "ocean", 4); //-> [1, 5] 
+
+findMyCampsites(campgrounds, "ocean", 8); //-> [1] 
+
+findMyCampsites(campgrounds, "forest", 4); //-> [18] 
+
+findMyCampsites(campgrounds, "forest", 6); //-> 'Sorry, no campsites with that view are available to host your party'
+Array
+Our data looks like this. It's an array with a bunch of campsite objects in it. Here is a small subset of the data to give you an idea:
+
+
+let campgrounds = [ 
+
+  { number: 1, view: "ocean", partySize: 8, isReserved: false }, 
+
+  { number: 5, view: "ocean", partySize: 4, isReserved: false }, 
+
+  { number: 12, view: "ocean", partySize: 4, isReserved: true }, 
+
+  { number: 18, view: "forest", partySize: 4, isReserved: false }, 
+
+  { number: 23, view: "forest", partySize: 4, isReserved: true }, 
+
+];

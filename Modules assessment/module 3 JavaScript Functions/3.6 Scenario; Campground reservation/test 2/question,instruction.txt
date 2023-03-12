@@ -1,0 +1,28 @@
+Congratulations on successfully completing the last challenge! Let's keep going.
+
+Campsite reservations: Max capacity
+How many people can we host at max capacity?
+As our popularity increases, our reservation website needs to calculate our maximum capacity.
+
+Qualified challenge requirements
+Write a function called campgroundCapacity(campgrounds) that takes a collection of campgrounds like the array shown below.
+Given a campgrounds array, return the total number of people the campground can host.
+If all sites are filled to maximum capacity, - call the function campgroundCapacity(campgrounds).
+Array
+Our data looks like this. It's an array with a bunch of campsite objects in it. Here is a small subset of the data to give you an idea:
+
+
+const campgrounds = [ 
+
+  { number: 1, view: "ocean", partySize: 8, isReserved: false }, 
+
+  { number: 5, view: "ocean", partySize: 4, isReserved: false }, 
+
+  { number: 12, view: "ocean", partySize: 4, isReserved: true }, 
+
+  { number: 18, view: "forest", partySize: 4, isReserved: false }, 
+
+  { number: 23, view: "forest", partySize: 4, isReserved: true }, 
+
+];
+The campgroundCapacity(campgrounds) function should return 24 if the campgrounds array shown above is used.

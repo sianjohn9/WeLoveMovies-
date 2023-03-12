@@ -1,0 +1,22 @@
+
+form {
+  padding-right: 6px;
+  /* Fixed small sizing issue on the right */
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 140px;
+}
+
+
+

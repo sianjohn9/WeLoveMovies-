@@ -1,0 +1,21 @@
+Challenge: How many candies are in stock?
+We want to know how many units we have in total (all candies). Create a function called totalInStock that takes in:
+
+the inventory array
+Add up the inStock value from each candy.
+
+Return the total number of candies in stock.
+
+Example input and output
+totalInStock([]) //-> 0
+totalInStock(inventory); //-> 720
+Sample inventory array
+This is a sample of the data that will be used in all of the challenges.
+
+let inventory = [
+  { candy: "Twizzlers", inStock: 180, weeklyAverage: 200 },
+  { candy: "Sour Patch Kids", inStock: 90, weeklyAverage: 100 },
+  { candy: "Milk Duds", inStock: 300, weeklyAverage: 170 },
+  { candy: "Now and Laters", inStock: 150, weeklyAverage: 40 }
+];
+The tests might pass in different inventory arrays, but they'll have the same shape.

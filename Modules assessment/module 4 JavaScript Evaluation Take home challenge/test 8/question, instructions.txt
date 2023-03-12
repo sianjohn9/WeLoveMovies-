@@ -1,0 +1,55 @@
+Take-home: Science questions
+Part 4: Check for plagiarism
+In this four-part challenge, you'll write functions to grade students' answers to a science quiz.
+
+This is part 4. In this challenge, you'll write a function to check if any of the student responses include a snippet of text.
+
+Read these instructions.
+Write the code to solve this challenge.
+Run the tests to check your answer.
+After your code passes the tests, move to the next challenge.
+Instructions
+Write a function named checkForPlagiarism that does the following:
+
+Takes two arguments: an array of student answers, and snippet of text to check
+Returns true if any of the essay question responses contain the text, and returns false otherwise
+For each essay question in the answers array, check whether the response contains the snippet of text. If it does, return true.
+
+Using the example answers below,
+
+checkForPlagiarism(answers, 'spherical vesicles that contain hydrolytic enzymes'); //=> true
+checkForPlagiarism(answers, 'this string does not appear in the responses'); //=> false
+Hint: You may want to check out the String .includes() method for this question.
+
+Notes
+Only essay question responses count as plagiarism. If an answer to a non-essay question contains the snippet of text, that doesn't mean that you should necessarily return true.
+Example quiz data
+A student's answers to a quiz are represented as an array.
+
+let answers = [
+  {
+    question: 'What is the phase where chromosomes line up in mitosis?',
+    response: 'Metaphase',
+    isCorrect: true,
+    isEssayQuestion: false
+  },
+  {
+    question: 'What anatomical structure connects the stomach to the mouth?',
+    response: 'Esophagus',
+    isCorrect: true,
+    isEssayQuestion: false
+  },
+  {
+    question: 'What are lysosomes?',
+    response: 'A lysosome is a membrane-bound organelle found in many animal cells. They are spherical vesicles that contain hydrolytic enzymes that can break down many kinds of biomolecules.',
+    isCorrect: true,
+    isEssayQuestion: true
+  },
+  {
+    question: 'True or False: Prostaglandins can only constrict blood vessels.',
+    response: 'True',
+    isCorrect: false,
+    isEssayQuestion: false
+  }
+];
+Note: The tests will pass different arrays into your function—not just this one. The arrays will be like this one. Each item will be an object with the keys question, response, isCorrect, and isEssayQuestion.

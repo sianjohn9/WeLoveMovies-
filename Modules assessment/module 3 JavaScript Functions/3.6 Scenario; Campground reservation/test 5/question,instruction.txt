@@ -1,0 +1,33 @@
+Just two more functions left. Keep it up! You're doing great.
+
+Campground reservations: Count campsites by type of view
+How many campsites are there with each kind of view?
+We need to know how many campsites we have with each kind of view, regardless of whether or not they are currently reserved.
+
+Qualified challenge requirements
+Write a function called countByView() that takes two arguments:
+a. An array of campsites
+b. A string, such as 'ocean' or 'forest', for the view type
+Given a campgrounds array, return the total number of campsites with the view matching the input string, regardless of whether or not the campsites are currently reserved.
+Here's an example:
+
+countByView(campgrounds, "ocean"); //-> 3 
+
+countByView(campgrounds, "forest"); // -> 2
+Array
+Our data looks like this. It's an array with a bunch of campsite objects in it. Here is a small subset of the data to give you an idea:
+
+
+let campgrounds = [ 
+
+  { number: 1, view: "ocean", partySize: 8, isReserved: false }, 
+
+  { number: 5, view: "ocean", partySize: 4, isReserved: false }, 
+
+  { number: 12, view: "ocean", partySize: 4, isReserved: true }, 
+
+  { number: 18, view: "forest", partySize: 4, isReserved: false }, 
+
+  { number: 23, view: "forest", partySize: 4, isReserved: true }, 
+
+];

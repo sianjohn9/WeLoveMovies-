@@ -1,0 +1,7 @@
+For this assessment, you will be recreating the Dogs or Cats? web page seen above. This is a simple web page with text and images, and you've totally got the skills to replicate it! This activity allows you to practice an essential skill in web development: the ability to look at a web page and recreate it with code based on what you see. It's important that you push yourself here. Don't peek at the underlying HTML code in the completed project unless you are completely stuck.
+
+Here's what to do: first, review the code in the Replit above. Then, take some time to update the code using both what you know about HTML and the image of the Dogs or cats? web page shown earlier in the lesson. This is a major step forward in your journey to becoming a web developer!
+
+When you're done, submit a link to your Replit in the box below and check out the completed practice project.
+
+The purpose of this assessment is for you to practice and hone your skills as a web developer. You will apply these skills throughout the program. Although you won't be graded on this assessment, it is still required. 

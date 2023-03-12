@@ -1,0 +1,42 @@
+What will be logged from the following promise chain?
+
+Promise.resolve(10)
+  .then((value) => Promise.reject(value - 1))
+  .then((result) => console.log("Success:", result))
+  .catch((result) => console.log("Failure:", result));
+Responses
+
+1. Success: 10
+
+
+2. Success: 9
+
+
+3. Failure: 10
+
+
+4. Failure: 9(answer) 
+
+
+
+Question 2
+What will be logged from the following promise chain?
+
+Promise.resolve({ name: "Orion" })
+  .then((value) => {
+    return value.meaning
+      ? Promise.reject(value)
+      : Promise.resolve({ error: "Missing key." });
+  })
+  .then((result) => console.log("Success:", result))
+  .catch((result) => console.log("Failure:", result));
+Responses
+
+1. Success: { name: "Orion" }
+
+2. Success: { error: "Missing key." } (answer)
+
+3. Failure: { name: "Orion" }
+
+
+4. Failure: { error: "Missing key." }

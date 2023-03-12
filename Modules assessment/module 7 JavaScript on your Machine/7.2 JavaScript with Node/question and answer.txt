@@ -1,0 +1,48 @@
+Which of the following will allow you to run a JavaScript file with the name of myFile.js?
+Responses
+
+1. node -v
+
+2. npm myFile.js
+
+3. node myFile.js (answer)
+
+Question 2
+Which of the following statements is false?
+Responses
+
+1. In the Node REPL, you can type .exit to leave the REPL.
+
+2. In the Node REPL, when you see a >, you may write a line of JavaScript.
+
+3. In the Node REPL, you can return to a previous line by pressing the up arrow. (answer)
+
+4. In the Node REPL, when you see a ..., you are in the middle of a longer block of code.
+
+
+Question 3
+If you were to run this file with the node command, what would be outputted to the terminal?
+
+const message = "Welcome to the garden!";
+return message;
+Responses
+
+1. Nothing
+
+2. Syntax (answer)
+
+3. "Welcome to the garden!"
+
+
+Question 4
+If you were to run this file with the node command, what would be outputted to the terminal?
+
+const vegetables = [ "carrots", "arugula", "celery" ];
+console.log(vegetables);
+Responses
+
+1. [Object object]
+
+2. "[ 'carrots', 'arugula', 'celery' ]"
+
+3. [ "carrots", "arugula", "celery" ](answer)

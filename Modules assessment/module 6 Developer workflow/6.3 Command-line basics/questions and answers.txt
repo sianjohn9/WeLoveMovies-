@@ -1,0 +1,62 @@
+Use the man command or the --help flag to determine the following:
+
+What does the -p flag do for the ls command?
+
+Responses
+
+1. Sort files by size.
+
+
+2. Write a slash / after each filename if that file is a directory.(answer)
+
+3. Directories are listed as plain files (not searched recursively).
+
+4. For each file, print the file's file serial number (inode number).
+
+
+Question 2
+Use the man command or the --help flag to determine the following:
+
+What does the -S flag do for the ls command?
+
+Responses
+
+1. Sort files by size.(answer)
+
+2. Write a slash / after each filename if that file is a directory.
+
+3. Directories are listed as plain files (not searched recursively).
+
+4. For each file, print the file's file serial number (inode number).
+
+
+Question 3
+Use the man command or the --help flag to determine the following:
+
+What does the cat command do?
+
+Responses
+
+1. It reads files sequentially, writing them to the standard output.(answer)
+
+2. It displays the contents of file or, by default, its standard input, to the standard output.
+
+3. It is a program similar to more, but which allows backward movement in the file as well as forward movement.
+
+4. This filter displays the first count lines or bytes of each of the specified files, or of the standard input if no files are specified.
+
+
+Question 4
+Use the man command or the --help flag to determine the following:
+
+What does the tail command do?
+
+Responses
+
+1. It reads files sequentially, writing them to the standard output.
+
+2. It prints the last 10 lines of a file to standard output.(answer)
+
+3. It is a program similar to more, but which allows backward movement in the file as well as forward movement.
+
+4. This filter displays the first count lines or bytes of each of the specified files, or of the standard input if no files are specified.

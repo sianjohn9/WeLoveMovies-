@@ -1,0 +1,42 @@
+Getting started
+As Naomi mentioned in her message, she needs your help updating the campground reservation site with six new features. In this assessment, you will be creating six new functions (six separate Qualified challenges) that answer the following questions:
+
+How many campsites are there?
+How many people can we host at max capacity?
+Which campsites are available to reserve?
+What's the capacity of the unreserved sites?
+How many campsites are there with each kind of view?
+Which campsites are available to reserve for a given party size and a given view?
+Each Qualified challenge will require you to answer a question by writing a function to solve the question. Each function is a new feature request from the client.
+
+This only assesses your ability to write a function that can solve the answer to the question being asked by the client. As you progress in this program, you will make full end-to-end programs that allow for multiple functions.
+
+Campground reservations: Counting the campsites
+Now, it's time to take on the first challenge.
+
+How many campsites are there?
+We recently added some campsites and divided up others, and we aren't totally sure how many campsites we have now. We need your help to clearly understand our campsite inventory.
+
+Qualified challenge requirements
+Under Project Files in the left pane, do the following:
+Expand the src folder.
+Select solution.js.
+Write a function called campsiteCount() that takes a collection of campgrounds like the array shown below.
+Given a campgrounds dataset, which is an array, return the total number of campsites in the array.
+Array
+The data looks like this. It's an array with a bunch of campsite objects in it. Here is a small subset of the data to give you an idea:
+
+
+const campgrounds = [ 
+
+  { number: 1, view: "ocean", partySize: 8, isReserved: false }, 
+
+  { number: 5, view: "ocean", partySize: 4, isReserved: false }, 
+
+  { number: 12, view: "ocean", partySize: 4, isReserved: true }, 
+
+  { number: 18, view: "forest", partySize: 4, isReserved: false }, 
+
+  { number: 23, view: "forest", partySize: 4, isReserved: true }, 
+
+];

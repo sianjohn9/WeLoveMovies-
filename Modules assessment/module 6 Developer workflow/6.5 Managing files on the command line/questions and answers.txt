@@ -1,0 +1,72 @@
+Imagine you are in your home directory. You want to create a new directory called animals. What command would you use?
+Responses
+
+1. mkdir(answer)
+
+2. touch
+
+3. mv
+
+4. cd
+
+5. cp
+
+
+Question 2
+Imagine you are in your home directory and have just created an animals/ directory. What command would you use to navigate into that directory?
+Responses
+
+1. mkdir
+
+2. touch
+
+3. mv
+
+4. cd(answer)
+
+5. cp
+
+
+Question 3
+Imagine you are in your new animals/ directory. You want to create a new file called reptiles.txt. What command would you use?
+Responses
+
+1. mkdir
+
+2. touch (answer)
+
+3. mv
+
+4. cd
+
+5. cp
+
+
+Question 4
+Imagine you are in your new animals/ directory with a reptiles.txt file. You want to go back up to your home directory. What command would you use?
+Responses
+
+1. mkdir
+
+2. touch
+
+3. mv
+
+4. cd(answer)
+
+5. cp
+
+
+Question 5
+Imagine you are in your home directory with the animals/ directory. What command would you use to rename the directory to creatures/?
+Responses
+
+1. mkdir
+
+2. touch
+
+3. mv(answer)
+
+4. cd
+
+5. cp

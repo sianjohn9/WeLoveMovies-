@@ -1,0 +1,61 @@
+/*
+
+	For this demo, DO NOT worry about these CSS styles.
+	All of these styles will be covered properly in upcoming lessons.
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+
+/* ----- =structure ----- */
+
+body {
+	background-color: #fff;
+  margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+/* ----- =logo ----- */
+
+header h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 40px;
+	padding-top: 50px;
+	margin: 0 0 0 20px;
+  text-align: center;
+}
+header h1 a  {
+	text-decoration: none;
+	color: #8f99a4;
+}
+header h1 a:hover {
+	color: #777;
+}
+
+/* ----- =header & nav ----- */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+  color: #8f99a4;
+  font-family: Quattrocento, sans-serif;
+}
+
+nav a:hover {
+  color: #777;
+}
+
+nav a:last-of-type {
+  margin-right: 20px;
+}

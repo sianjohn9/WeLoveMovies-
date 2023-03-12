@@ -1,0 +1,15 @@
+Start coding: Manipulate text
+Instructions
+Diego wants his fans to be able to search for any of his songs. For a search to work, you need to compare a user's input with song titles in Diego's albums.
+
+Read the instructions below to understand the request and requirements necessary for you to successfully complete this challenge.
+
+Remember, you have all the skills needed to do this. But if you need support, please reach out for help!
+
+Click on the Web Preview. Notice the search bar. Type Seen a Thousand Things into the search bar and then click Submit. Notice the error message that comes up. You want the search to find the lyrics for the songs Seen a Thousand Things and We're All Light.
+
+Click the script.js file and follow the instructions to use string methods to make the search work properly.
+
+Use the Web Preview to test the effects of your updates in the script.js file and verify that the search feature is working correctly. To test, first input Seen a Thousand Things and click Submit. It should take you to the lyrics page for Seen a Thousand Things. Click the Diego music logo to get back to the home page. After getting the search to work for Seen a Thousand Things, do the same for We're All Light.
+
+Click on Run Tests when you think you've got a solution. When the tests pass (you'll know because they'll turn green), go ahead and submit the challenge. Then, congratulate yourself for finishing!

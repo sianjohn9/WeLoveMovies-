@@ -1,0 +1,40 @@
+Challenge: How many candies should we order in total this week?
+In the last challenge (candyOrderQuantity), you wrote a function to tell how many of one particular candy to order this week.
+
+Now, you'll write a function to tell how many of all the candies to order.
+
+Write a function allCandyOrders that takes one argument:
+
+the inventory array
+allCandyOrders should return an order object. The keys should be the names of the candies, and the values should be the amounts to be ordered that week.
+
+The amount to order each week should use the same formula as the candyOrderQuantity function.
+
+Formula:
+
+if inStock is greater than weeklyAverage, order zero.
+if inStock is less than weeklyAverage, order two times the weeklyAverage.
+Example input and output
+allCandyOrders(inventory)
+should return:
+
+{
+  "Twizzlers": 400,
+  "Sour Patch Kids": 200,
+  "Milk Duds": 0,
+  "Now and Laters": 0
+}
+The tests will call your allCandyOrders function with different inventories, so you can't just copy and paste this object.
+
+Hint: You can copy your candyOrderQuantity function from the last drill and use it as a helper function in allCandyOrders. The tests only check allCandyOrders, but if you use the helper function, you don't have to figure out how to solve that problem again.
+
+Sample inventory array
+This is a sample of the data that will be used in all of the challenges.
+
+let inventory = [
+  { candy: "Twizzlers", inStock: 180, weeklyAverage: 200 },
+  { candy: "Sour Patch Kids", inStock: 90, weeklyAverage: 100 },
+  { candy: "Milk Duds", inStock: 300, weeklyAverage: 170 },
+  { candy: "Now and Laters", inStock: 150, weeklyAverage: 40 }
+];
+The tests might pass in different inventory arrays, but they'll have the same shape.

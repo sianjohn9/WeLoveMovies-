@@ -1,0 +1,43 @@
+Take-home: School shopping
+Part 1: Check cart price
+In this four-part challenge, you'll write functions to analyze a shopping cart.
+
+This is part 1. In this challenge, you'll write a function to calculate the total value of all the items in a shopping cart.
+
+Read these instructions.
+Write the code to solve this challenge.
+Run the tests to check your answer.
+After your code passes the tests, move to the next challenge.
+Instructions
+Create a function named cartPrice to find the total cost of all the items in the shopping cart.
+
+The function should do the following:
+
+Accept an array of items as its argument
+Return the total cost of the items, as a number
+As shown in the example shopping cart data below, the shopping cart is an array of items. Each item is an object with keys itemName, type, and price.
+
+Your function cartPrice should add together the price of each item in the cart, and return that number.
+
+For example, passing in the sample array items, your function should return 328.98.
+
+cartPrice(items) //=> 328.98
+Example shopping cart data
+let items = [
+  {
+    itemName: "Effective Programming Habits",
+    type: "book",
+    price: 13.99
+  },
+  {
+    itemName: "Creation 3005",
+    type: "computer",
+    price: 299.99
+  },
+  {
+    itemName: "Finding Your Center",
+    type: "book",
+    price: 15.00
+  }
+]
+Note: The tests will pass different arrays into your function—not just this one. The arrays will be like this one. Each item will be an object with the keys itemName, type, and price.

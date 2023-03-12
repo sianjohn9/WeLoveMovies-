@@ -1,0 +1,18 @@
+Start coding: Data types
+Fixing another coder's work is a common task for developers. Diego mentioned that the total album runtime isn't displaying correctly. You have the skills to help him fix it.
+
+Read the instructions below to understand the request and requirements necessary for you to successfully complete this challenge.
+
+Remember, you have all the skills needed to do this. But if you need support, you can always reach out for help!
+
+Instructions
+Click on the Web Preview and notice how the album runtime is incorrect.
+
+Click the script.js file and follow the instructions to display the runtime correctly on the webpage.
+
+Click the Web Preview to see the effects of your updates in the script.js file and verify that the bugs have been fixed.
+
+Click Run Tests when you think you have a solution. When the tests pass (you'll know because they'll turn green), go ahead and submit this challenge and congratulate yourself for finishing!
+
+Additional tips
+Use the Converting Variables to Numbers section on the W3Schools website if you get stuck.

@@ -1,0 +1,23 @@
+Start coding: Control flow
+Diego wants his website to reflect his mood during the day. He's wondering how to make the page dynamic to show different photos during the morning, during the day, and at night. See if you can help him out.
+
+Read the instructions below to understand the request and requirements necessary for you to successfully complete this challenge.
+
+Remember, you have all the skills needed to do this. But if you need support, please reach out for help!
+
+Instructions
+Click on the Web Preview and notice how the images being shown are morning photos. They will look this way regardless of the time of day.
+
+Click the script.js file and follow the instructions to dynamically set the photos. If you want to test out your code manually, you can change the following line:
+
+// Returns a value between 0 and 23.
+let timeOfDay = getHours();
+Change the line to a number value, like you can see below:
+
+// Returns a value between 0 and 23.
+let timeOfDay = 20;
+Note: Don't forget to change it back!
+
+Click the Web Preview to see the effects of your updates in the script.js file and verify that the images change.
+
+Click Run Tests when you think that you have a solution. When the tests pass (you'll know because they'll turn green), go ahead and submit the challenge.

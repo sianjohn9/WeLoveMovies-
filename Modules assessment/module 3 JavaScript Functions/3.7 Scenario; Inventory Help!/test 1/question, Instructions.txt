@@ -1,0 +1,20 @@
+Challenge: How many candy types are in the array?
+We want to know how many candy types we have in the inventory.
+
+Create a function called countCandyTypes that takes in the inventory array.
+
+Return the number of objects in the array, which should be the number of types of candy.
+
+Example input and output
+countCandyTypes(inventory); //-> 4
+countCandyTypes([]) //-> 0
+Sample inventory array
+This is a sample of the data that will be used in all of the challenges.
+
+let inventory = [
+  { candy: "Twizzlers", inStock: 180, weeklyAverage: 200 },
+  { candy: "Sour Patch Kids", inStock: 90, weeklyAverage: 100 },
+  { candy: "Milk Duds", inStock: 300, weeklyAverage: 170 },
+  { candy: "Now and Laters", inStock: 150, weeklyAverage: 40 }
+];
+The tests might pass in different inventory arrays, but they'll have the same shape.

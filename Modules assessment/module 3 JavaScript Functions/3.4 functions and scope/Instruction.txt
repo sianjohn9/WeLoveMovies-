@@ -1,0 +1,54 @@
+Now that the chatbot is responding to messages, it’s time to add the help functionality. It should show the visitor what help options are available and provide useful info depending on what they type in.
+
+Getaway Travel chatbot: Bot help
+Qualified challenge requirements
+Write three functions: contactInfoHelp(), paymentHelp(), and showHelpOptions().
+
+Note: Take a look at the updated input-handling function in chatbot.js to see how the functions will be used. More details about how each function should respond are below.
+
+Contact info
+Qualified challenge requirement details
+The function contactInfoHelp() should be called when the user enters contact.
+
+The function should return a string with the contact information.
+
+Here's the message it should send:
+
+
+We have 24 hour phone support. Our phone number is +01 312 555 8432. We look forward to hearing from you!
+Payment info
+Sometimes, visitors want general help with payment. Other users need help with credit card payment in particular.
+
+Qualified challenge requirement details
+The paymentHelp() function will be called when the user enters "payment" or "credit card".
+a. Depending on which string gets passed in, it should return a different message.
+If the function is called like this:
+
+
+paymentHelp("credit card");
+it should return a string with this message:
+
+
+"You can pay with any major credit card. Enter your card details and billing address at checkout."
+If the input string is anything other than else — if it isn't "payment" or "credit card", —for example, if it’s like this:
+
+
+paymentHelp("wire transfer");
+then the function should return this string:
+
+
+"We have three payment options: credit card, paypal, or apple pay. Choose your preferred method at checkout."
+Show the help options
+Qualified challenge requirement details
+The showHelpOptions() function should take in an array of options, instead of hardcoding the options as strings.
+Write the showHelpOptions() function so that it returns a string describing the options.
+It might be helpful to check out JavaScript's built-in array join method. It turns array items into a string, with a comma in between each one.
+
+When the showHelpOptions() function is called like this:
+
+
+showHelpOptions(["option1", "option2", "option3", "option4"]);
+It should return this string:
+
+
+"Enter a keyword for help with a topic: option1, option2, option3, option4."

@@ -1,0 +1,13 @@
+Start coding: Accumulator pattern
+The following practice should take less than 30 minutes. If you spend longer than that working on this, please reach out for help!
+
+Instructions
+Diego needs you to get the cart totals working.
+
+Click on the Web Preview and notice how the prices under "Cart Totals" are currently "$0.00".
+
+Click the script.js file and follow the instructions to fix the issue.
+
+Click on the Web Preview to see the effects of your updates in the script.js file and verify that the content has changed.
+
+Click on Run Tests when you think you've got a solution. Once the tests pass (they'll turn green), go ahead and submit the challenge.

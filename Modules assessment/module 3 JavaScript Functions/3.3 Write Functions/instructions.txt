@@ -1,0 +1,46 @@
+It is common for developers to work together with other developers on projects. Working with Jamal to build out a chatbot for his websites will sharpen your skills as a developer. You will be applying your skills to write functions for the chatbot over three stages: Bot responses, Bot help, and Bot travel destination information.
+
+Within the Qualified instructions, you will need to pay careful attention to the details shared. Feel free to take breaks, search the internet, and reach out for help as needed. These assessments are pulling together all the skills that you have learned up to this point in the program — it is meant to be challenging but not overwhelming.
+
+Getaway Travel chatbot: Bot responses
+Hi, and thanks again for helping out with the chatbot! The rest of the team and I have been working on getting the chat interface to look good, and we need you to help write the chat logic. The chatbot response is going to be simple at first. But after we get it working, we can add more logic to make the bot more helpful.
+
+Qualified challenge requirements
+Update both the botGreeting () and botResponse() functions
+
+a. Each function needs to send a response when the user sends a message.
+
+b. Open chatbot.js Y.ou will see that there's space for you to add your code.
+
+c. Do not update how the preexisting handleInput() function is defined. Jamal will call into your code from there.
+
+Note: More details about how each function should respond are below.
+
+Notes about this environment
+You can click Web Preview to see a preview of the website. This will let you see the chatbot in action. There are some tests that should help check your work—click Run Tests to see if your code does what the tests expect.
+
+Bot greeting
+When the user first opens the chat, the bot should send a greeting. I wired up the chat to call a function botGreeting when the user first opens the chat. I need you to complete that function.
+
+It should return a string that will greet the user. So, if the function is called like this:
+
+
+botGreeting();
+Then it should return a string like this:
+
+
+"Hello, I'm the Getaway Bot! I want to help you find your dream destination. You can ask me about our current offers, payment, or contact info. Or type 'help'."
+Bot response
+When the user enters a message, we want the bot to send a response. For now, you'll just respond with a message saying that bot doesn't understand. Eventually, you'll add more logic so that the bot is more helpful.
+
+If you look at the handleInput() function, you'll see that it calls a function called botResponse() and passes in the user's message. You need to write the function botResponse().
+
+It will be called like this:
+
+
+botResponse("hi, I'm looking for travel help");
+It should return a string like this:
+
+
+"I'm not sure I understood your message: 'hi, I'm looking for travel help'. Type 'help' to see more options."
+Note: The message should be whatever the user's message is, not just the example shown above.

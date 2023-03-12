@@ -1,0 +1,78 @@
+Imagine you are in the mammal/ directory of the following file structure. Which of the options is the correct path to the cow/ directory?
+
+animal
+├── mammal
+│   ├── bovine
+│   │   └── cow
+│   ├── canine
+│   └── equine
+│       ├── horse
+│       └── zebra
+└── reptile
+    ├── bird
+    ├── lizard
+    │   └── salamander
+    └── snake
+Responses
+
+1. ./cow
+
+
+2. ../cow
+
+3. ./bovine/cow(answer)
+
+4. ../bovine/cow
+
+
+Question 2
+Imagine you are in the reptile/ directory of the following file structure. Which of the options is the correct path to the canine/ directory?
+
+animal
+├── mammal
+│   ├── bovine
+│   │   └── cow
+│   ├── canine
+│   └── equine
+│       ├── horse
+│       └── zebra
+└── reptile
+    ├── bird
+    ├── lizard
+    │   └── salamander
+    └── snake
+Responses
+
+1. ./canine
+
+2. ./mammal/canine
+
+3. ../mammal/canine(answer)
+
+4. ../../mammal/canine
+
+Question 3
+Imagine you are in the mammal/ directory of the following file structure. Which of the options is the correct path to the zebra/ directory?
+
+animal
+├── mammal
+│   ├── bovine
+│   │   └── cow
+│   ├── canine
+│   └── equine
+│       ├── horse
+│       └── zebra
+└── reptile
+    ├── bird
+    ├── lizard
+    │   └── salamander
+    └── snake
+Responses
+
+1. ./cow
+
+2. ../cow
+
+3. ./equine/zebra(answer)
+
+4. ../bovine/cow

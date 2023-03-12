@@ -1,0 +1,73 @@
+/* DO NOT CHANGE/EDIT ANY OF THIS CSS CODE */
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker');
+
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+html, h1, h2, p {
+  font-family: 'Shadows Into Light', cursive;
+  color: DarkRed;
+}
+
+
+header > h1 {
+  color: #7B3B3B;
+}
+
+main > h2 {
+  color: #668284;
+}
+
+main > h2,
+main > p,
+footer > p {
+  text-align: center;
+  font-family: Oswald, cursive;
+}
+
+main > h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+  font-family: 'Oswald', sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+main {
+  width: 300px;
+  margin: auto;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main p {
+  color: #493736;
+}
+
+main {
+  border: 3px solid #668284;
+  padding: 10px;
+  background-color: #B9D7D9;
+}
+
+footer p {
+  color: #668284;
+}

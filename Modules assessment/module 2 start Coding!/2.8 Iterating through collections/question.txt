@@ -1,0 +1,15 @@
+Start coding: Iterating through collections
+Diego's website is coming along pretty well, thanks to you! Apply your for loop skills to update each of the track titles.
+
+Read the instructions below to understand the request and requirements necessary for you to successfully complete this challenge.
+
+Remember, you have all the skills needed to do this. But if you need support, please reach out for help!
+
+Instructions
+Click Web Preview and notice that the songs are not showing up.
+
+Click the script.js file and follow the instructions to write the code to display the songs on the web page.
+
+Click Web Preview to see the effects of your updates in the script.js file and verify that the images change.
+
+Click Run Tests when you think you've got a solution. When the tests pass (you'll know because they'll turn green), go ahead and submit the challenge.

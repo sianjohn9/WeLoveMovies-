@@ -1,0 +1,1 @@
+if (!students.length) return null;
